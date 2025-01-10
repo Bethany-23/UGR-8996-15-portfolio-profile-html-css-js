@@ -4,10 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homepage</title>
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
-		integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+			integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
 	<body>
 		<header>
@@ -17,6 +23,11 @@
 					<article class="logo_container">
 						<div class="logo"><h2>B</h2></div>
 					</article>
+					<div class="burger">
+						<div></div>
+						<div></div>
+						<div></div>
+					  </div>
 					<ul class="li1">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="Aboutme.html">About me</a></li>
@@ -26,90 +37,95 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="headline">
-				<h6>Portfolio</h6>
-			</div>
 		</header>
 		<main>
 			<article class="one">
 				<div id="video">
-					<video width="520" height="340" controls>
-						<source src="video/portfolio.mp4" type="video/mp4">
-						<source src="video/portfolio.ogg" type="video/ogg">
+					<video controls>
+						<source src="video/portfolio.mp4" type="video/mp4" />
+						<source src="video/portfolio.ogg" type="video/ogg" />
 						Your browser does not support the video tag.
 					</video>
-			
+					<div id="audio">
+						<audio controls>
+							<source src="Audio/Audio_bg.mp3" type="audio/ogg" />
+							<source src="Audio/Audio_bg.mp3" type="audio/mpeg" />
+							Your browser does not support the audio tag.
+						</audio>
+					</div>
 				</div>
-				<div id="audio">
-					<audio controls>
-						<source src="Audio/Audio_bg.mp3" type="audio/ogg">
-						<source src="Audio/Audio_bg.mp3" type="audio/mpeg">
-						Your browser does not support the audio tag.
-					  </audio>
-				</div>
-				<div>
-					<h3>Design tools used: </h3>
+
+				<div id="sft">
+					<h3>Design tools used:</h3>
 					<ul class="li5">
-						<li> Photshop</li>
-						<li> Illustrator</li>
-						<li> Canva</li>
+						<li>Photshop</li>
+						<li>Illustrator</li>
+						<li>Canva</li>
 					</ul>
 				</div>
-
 			</article>
-			<article class="two">
-				<h2> Different design niches</h2>
-				<div class="img4">
-					<img src="Images/img_4.jpg" alt="roe design school poster">
-					<p> This design was made by using illustrator, An engaging and visually balanced poster for Roe Design School, 
-						showcasing its offerings in graphic design, photography, and 3D modeling.</p>
+			<article class="three">
+				<div class="sec">
+					<img src="Images/img_4.jpg" alt="roe design school poster" />
+					<p>
+						This design was made by using illustrator, An engaging and visually
+						balanced poster for Roe Design School, showcasing its offerings in
+						graphic design, photography, and 3D modeling.
+					</p>
 				</div>
-				<div class="img5">
-					<img src="Images/img_5.jpg" alt="Traveler magazine cover">
-					<p> This design was made by using photoshop, A  polished magazine cover for 'Traveler' that combines a bold red accent 
-						with iconic imagery of London. The design effectively balances typography and visuals, 
-						creating a striking and professional layout</p>
+				<div class="sec">
+					<img src="Images/img_5.jpg" alt="Traveler magazine cover" />
+					<p>
+						This design was made by using photoshop, A polished magazine cover
+						for 'Traveler' that combines a bold red accent with iconic imagery
+						of London. The design effectively balances typography and visuals,
+						creating a striking and professional layout
+					</p>
 				</div>
-				<div class="img6">
-					<img src="Images/img_6.jpg" alt="Business card for roe design school">
-					<p> This design was made by using Canva, the bold and playful typography,
-						combined with the dynamic use of geometric shapes and colors, 
-						gives the design a modern and energetic feel</p>
+				<div class="sec">
+					<img
+						src="Images/img_6.jpg"
+						alt="Business card for roe design school"
+					/>
+					<p>
+						This design was made by using Canva, the bold and playful
+						typography, combined with the dynamic use of geometric shapes and
+						colors, gives the design a modern and energetic feel
+					</p>
 				</div>
 			</article>
-
 		</main>
 		<footer>
 			<div class="more">
-				<div>
+				<div class="more1">
 					<h2>Let's design something together?</h2>
 					<p>
-						if you want us to work on a project together, 
-						fill out the form on the Contacts page or use my contacts below: 
+						if you want us to work on a project together, fill out the form on
+						the Contacts page or use my contacts below:
 					</p>
-						<ul>
-							<li> <i class="fa-solid fa-envelope">  likethisnate64@gmail.com </i></li>
-							<li> <i class="fa-brands fa-telegram"> @louie_31</i></li>
-							<li> <i class="fa-solid fa-phone"> +251 933 668 090</i></li>
-						</ul>	
+					<ul>
+						<li>
+							<i class="fa-solid fa-envelope"> </i>likethisnate64@gmail.com
+						</li>
+						<li><i class="fa-brands fa-telegram"> </i>@louie_31</li>
+						<li><i class="fa-solid fa-phone"></i> +251 933 668 090</li>
+					</ul>
 				</div>
-				<div>
+				<div class="more2">
 					<h2>Socials</h2>
-					<p>
-						Find me on social media:
-					</p>
-						<ul>
-							<li><i class="fa-brands fa-square-instagram"> garfield_jg</i></li>
-							<li><i class="fa-brands fa-linkedin"> linkedin.com/in/be23  </i></li>
-							<li><i class="fa-brands fa-square-twitter"> garfield_jg</i></li>
-							<li><i class="fa-brands fa-square-facebook"> @garfield_jg</i></li>
-						</ul>			
+					<p>Find me on social media:</p>
+					<ul>
+						<li><i class="fa-brands fa-square-instagram"></i> garfield_jg</li>
+						<li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/be23</li>
+						<li><i class="fa-brands fa-square-twitter"></i>garfield_jg</li>
+						<li><i class="fa-brands fa-square-facebook"></i>@garfield_jg</li>
+					</ul>
 				</div>
 			</div>
 			<div class="copy">
 				<h6>&copy; 2024 Betanya Addisalem, All rights reserved.</h6>
 			</div>
 		</footer>
+		<script src="js/index.js"></script>
 	</body>
 </html>
-
