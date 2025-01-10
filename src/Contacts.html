@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homepage</title>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/layout.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
 		integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +18,11 @@
 					<article class="logo_container">
 						<div class="logo"><h2>B</h2></div>
 					</article>
+					<div class="burger">
+						<div></div>
+						<div></div>
+						<div></div>
+					  </div>
 					<ul class="li1">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="Aboutme.html">About me</a></li>
@@ -26,18 +32,16 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="headline">
-				<h6>Contacts</h6>
-			</div>
 		</header>
 		<main>
 			<div class="contac">
-				<h2>let's work on a project?</h2>
+				<h2>Let's work on a project?</h2>
 				<p> would you like us to work together on a project?
-					fill this form out or reach out through the contacts 
+					fill this form out or reach out through<br> the contacts
 					i've put out.
 				</p>
-				<div>
+				<div class="conta">
+					<div>
 					<form class="form">
 						<div>
 							<input type="text" id="name" name="name" placeholder="Enter your name"><br>
@@ -48,28 +52,26 @@
 						<div>
 							<textarea id="comment" name="comment" placeholder="what do you suggest we work on?"></textarea>
 						</div>
-						<div>
-							<textarea id="timeframe" name="timeframe" placeholder="do you have a defined timeframe?"></textarea>
-						</div>
 						<button type="submit">Submit</button>		
 					  </form>
-				</div>
-			</div>
-			<div class="contac2">
-				<h2>find me on:</h2>
+					</div>
+				<div class="contac2">
+				<h2>Find me on:</h2>
 				<ul class="li6">
-					<li><i class="fa-brands fa-github"> Bethany-23</i></li>
-					<li><i class="fa-brands fa-dribbble">@louie_13</i></li>
+					<li><a href="https://github.com/Bethany-23"><i class="fa-brands fa-github"></i>Bethany-23</a></li>
+					<li><a href="https://github.com/Bethany-23"><i class="fa-brands fa-dribbble"></i>@louie_13</a></li>
 				</ul>
-				<div>
-					<p> Don't forget to reach out and make sure to follow me on social medias. 
-						I will continue to upload more of works here so stay tuned! </p>
+				<div class="para">
+					<p> Don't forget to reach out and make<br>sure to follow me on social medias.<br>
+						I will continue to upload more of my<br> works here so stay tuned! </p>
+				</div>
+				</div>
 				</div>
 			</div>
 		</main>
 		<footer>
 			<div class="more">
-				<div>
+				<div class="more1">
 					<h2>Let's design something together?</h2>
 					<p>
 						if you want us to work on a project together, 
@@ -77,21 +79,21 @@
 						
 					</p> 
 					<ul>
-						<li> <i class="fa-solid fa-envelope">  likethisnate64@gmail.com </i></li>
-						<li> <i class="fa-brands fa-telegram"> @louie_31</i></li>
-						<li> <i class="fa-solid fa-phone"> +251 933 668 090</i></li>
+						<li> <i class="fa-solid fa-envelope"></i>likethisnate64@gmail.com</li>
+						<li> <i class="fa-brands fa-telegram"></i>@louie_31</li>
+						<li> <i class="fa-solid fa-phone"></i>+251 933 668 090</li>
 					</ul>
 				</div>
-				<div>
+				<div class="more2">
 					<h2>Socials</h2>
 					<p>
 						Find me on social media:
 					</p>
 						<ul>
-							<li><i class="fa-brands fa-square-instagram"> garfield_jg</i></li>
-							<li><i class="fa-brands fa-linkedin"> linkedin.com/in/be23  </i></li>
-							<li><i class="fa-brands fa-square-twitter"> garfield_jg</i></li>
-							<li><i class="fa-brands fa-square-facebook"> @garfield_jg</i></li>
+							<li><i class="fa-brands fa-square-instagram"></i> garfield_jg</li>
+							<li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/be23</li>
+							<li><i class="fa-brands fa-square-twitter"></i> garfield_jg</li>
+							<li><i class="fa-brands fa-square-facebook"></i> @garfield_jg</li>
 						</ul>
 				</div>
 			</div>
@@ -99,6 +101,7 @@
 				<h6>&copy; 2024 Betanya Addisalem, All rights reserved.</h6>
 			</div>
 		</footer>
+		<script src="js/contact.js"></script>
 	</body>
 </html>
 
